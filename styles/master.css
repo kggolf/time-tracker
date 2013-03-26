@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lucida Grande', 'Helvetica', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+.wrapper{
+	margin:0 auto;
+	width:800px;
+	background: -moz-linear-gradient(top,  #ccc,  #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff');
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff));
+	padding:10px;
+}
+.entry {
+	display:block;
+	border:4px solid #CCCCCC;
+	background:#FFF3BD;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+.closebutton{
+	background:#CCCCCC; 
+	color:#3366FF; 
+	font-weight:700; 
+	font-size:22px; 
+	line-height:20px;
+	width:13px;
+	height:18px;
+	padding:0px 3px 3px;
+	pointer:hand;
+	float:left;
+}
+.closebutton:before{
+	content: "x";
+}
+.edit{
+	text-indent:10px;
+	background:#FFF3BD;
+	width:680px;
+	min-height:45px;
+	margin:5px;
+}
+.time{
+	font-size:28px;
+	font-weight:700;
+	color:#158522;
+	width:98px;
+	float:right;	
+	text-align:center;
+}
+.timestamp{
+	border-top:1px solid #F2CB1B;
+	background: #FFEC99;
+	font-size:13px;
+	color:#555555;
+	text-align:right;
+}
+input[type="button"]{
+	font-size:28px;
+}
+.stop{
+	color:#f00;
+}
+.tmp-time{
+	font-size:30px;
+}
